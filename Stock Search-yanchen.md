@@ -23,7 +23,7 @@ This project is developed using MERN stack (MongoDB, Express, React, Node.js) , 
 
 ## Three parts in the webpage
 
-### Search page / Homepage
+### 1. Search page / Homepage
 Users can input stock symbol to search here:
 
 #### Summary Tab
@@ -41,11 +41,11 @@ Users can view the historial price and volumn in the past two years.
 #### Insights Tab
 ![insights](https://github.com/KaltsitsPie/picx-images-hosting/raw/master/insights.9nzka70unq.webp)
 
-## Watchlist Menu
+### 2. Watchlist Menu
 Users can see all the stocks they starred, and check the change of stocks.
 ![watch list](https://github.com/KaltsitsPie/picx-images-hosting/raw/master/watch.7egjqq7h3o.webp)
 
-## Portfolio Menu
+### 3. Portfolio Menu
 Users can buy and sell here.
 ![Portfolio](https://github.com/KaltsitsPie/picx-images-hosting/raw/master/portfolio.6pna6pjy37.webp)
 
