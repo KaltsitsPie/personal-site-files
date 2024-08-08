@@ -1,17 +1,30 @@
 # Stock Search Website
 
-This project is developed using MERN stack (MongoDB, Express, React, Node.js) 
-
-[Try it!](https://stock-search-yanchen.wl.r.appspot.com/)
-
+## About Stock Search
 In this webpage, users can search stock by ticker symbol and get information about this stock. Also, users can star a stock for later recheck, buy and sell stocks using money in wallet (Of crouse it's not true :-D) 
 
-Three parts in the webpage: 
 
-## Search page / Homepage
-Users can search stock here:
-![search page](https://github.com/KaltsitsPie/picx-images-hosting/raw/master/homepage1.8vmosg7j7l.webp)
-![search page](https://github.com/KaltsitsPie/picx-images-hosting/raw/master/hpmepage2.lvi48mwoa.webp)
+
+[Go to website!](https://stock-search-yanchen.wl.r.appspot.com/)
+
+[Go to repository!](https://github.com/KaltsitsPie/stock-search)
+
+
+This project is developed using MERN stack (MongoDB, Express, React, Node.js) , deployed on Google Cloud Platform. 
+
+- **Front-end**: Responsive single-page application utilizing React and Bootstrap to enhance usability and user experience across multiple devices.
+
+- **Back-end**: Real-time stock data is retrieved from Polygon.io and Finnhub. These data are processed and formatted at the back-end using Node.js and Express to ensure that sensitive API keys and business logic remain secure and are not exposed in the client-side code.
+
+- **Data processing**: MongoDB Atlas is employed for robust, scalable data storage. It manages favorites and wallet data of user, with the backend handling connections and data transactions.
+
+
+- **Visualization**: Highcharts is used to render historical stock trends and historical stock market data, specifically the stock price and volume over time.
+
+## Three parts in the webpage
+
+### Search page / Homepage
+Users can input stock symbol to search here:
 
 #### Summary Tab
 ![Summary](https://github.com/KaltsitsPie/picx-images-hosting/raw/master/summary.361cgvpvep.webp)
